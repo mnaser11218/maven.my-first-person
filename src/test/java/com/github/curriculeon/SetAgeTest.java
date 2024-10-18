@@ -13,7 +13,7 @@ public class SetAgeTest {
 
         // When
         person.setAge(expected);
-        String actual = person.getName();
+        Integer actual = person.getAge();
 
         // Then
         Assert.assertEquals(expected, actual);
